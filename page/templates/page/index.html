@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+{% load staticfiles %}
+
+{% block styles %}
+    <link rel="stylesheet" href="{% static 'index.css' %}">
+{% endblock %}
+
+{% block content %}
+    <div class="mt-5 col-lg-12 text-center">
+        <h1>HTML Graphs Page</h1>
+        <div class="widget">
+            <div id="chart1" class="chart-container"></div>
+        </div>
+        <div class="widget">
+            <div id="chart2" class="chart-container"></div>
+        </div>
+        <div class="widget">
+            <div id="chart3" class="chart-container"></div>
+        </div>
+    </div>
+{% endblock %}
+
+{% block js %}
+    <script src="{% static 'index.js' %}"></script>
+{% endblock %}

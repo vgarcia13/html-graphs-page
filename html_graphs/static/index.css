@@ -1,0 +1,41 @@
+body {
+    background-color: #222D3A !important;
+}
+
+p {
+    color: white;
+}
+
+h1 {
+    color: white !important;
+}
+
+.widget {
+    width:350px;
+    height: 500px;
+    background-color: #222D3A;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.header{
+    background-color: #29384D;
+    height:40px;
+    color:#929DAF;
+    text-align: center;
+    line-height: 40px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    font-weight: 400;
+    font-size: 1.5em;
+    text-shadow: 1px 1px #06060d;
+}
+
+.chart-container{
+    padding:25px;
+}
+
+.shadow {
+    -webkit-filter: drop-shadow( 0px 3px 3px rgba(0,0,0,.5) );
+    filter: drop-shadow( 0 0 0 rgba(0,0,0,.5) );
+}
